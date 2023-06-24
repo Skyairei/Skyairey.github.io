@@ -4,6 +4,13 @@ body{
   background-size: cover;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
+.container {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  height: 100vh; /* Adjust as needed */
+}
 h1 {
   font-size: 3rem;
   color: aliceblue;
@@ -39,3 +46,4 @@ hr {
 .btn-xl {
   padding: 1rem 2rem;
 }
+
